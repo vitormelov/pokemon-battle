@@ -38,13 +38,15 @@ function pokemonSelect1() {
     let x = document.querySelector('input[name="pokemon"]:checked');  
     
     if(x.value == "pikachu") {
-        document.getElementById("disp").innerHTML = `
-            You selected ${pikachu.name} <br>
-            Health: ${pikachu.health} hit points <br>
-            Attack A: ${pikachu.attackA} hit points <br>
-            Attack B: ${pikachu.attackB} hit points <br>
-            Attack C: ${pikachu.attackC} hit points <br>
-            Attack D: ${pikachu.attackD} hit points <br>
+        document.getElementById("trainer1").innerHTML = `
+            <h5 class="text-success">
+                You selected ${pikachu.name} <br>
+                Health: ${pikachu.health} hit points <br>
+                Attack A: ${pikachu.attackA} hit points <br>
+                Attack B: ${pikachu.attackB} hit points <br>
+                Attack C: ${pikachu.attackC} hit points <br>
+                Attack D: ${pikachu.attackD} hit points <br>
+            </h5>
         `
         let p1 = pikachu
 
@@ -52,13 +54,15 @@ function pokemonSelect1() {
     }
 
     if(x.value == "bulbasaur") {
-        document.getElementById("disp").innerHTML = `
-            You selected ${bulbasaur.name} <br>
-            Health: ${bulbasaur.health} hit points <br>
-            Attack A: ${bulbasaur.attackA} hit points <br>
-            Attack B: ${bulbasaur.attackB} hit points <br>
-            Attack C: ${bulbasaur.attackC} hit points <br>
-            Attack D: ${bulbasaur.attackD} hit points <br>
+        document.getElementById("trainer1").innerHTML = `
+            <h5 class="text-success">
+                You selected ${bulbasaur.name} <br>
+                Health: ${bulbasaur.health} hit points <br>
+                Attack A: ${bulbasaur.attackA} hit points <br>
+                Attack B: ${bulbasaur.attackB} hit points <br>
+                Attack C: ${bulbasaur.attackC} hit points <br>
+                Attack D: ${bulbasaur.attackD} hit points <br>
+            </h5>
         `
         let p1 = bulbasaur
 
@@ -66,13 +70,15 @@ function pokemonSelect1() {
     }
 
     if(x.value == "charmander") {
-        document.getElementById("disp").innerHTML = `
-            You selected ${charmander.name} <br>
-            Health: ${charmander.health} hit points <br>
-            Attack A: ${charmander.attackA} hit points <br>
-            Attack B: ${charmander.attackB} hit points <br>
-            Attack C: ${charmander.attackC} hit points <br>
-            Attack D: ${charmander.attackD} hit points <br>
+        document.getElementById("trainer1").innerHTML = `
+            <h5 class="text-success">
+                You selected ${charmander.name} <br>
+                Health: ${charmander.health} hit points <br>
+                Attack A: ${charmander.attackA} hit points <br>
+                Attack B: ${charmander.attackB} hit points <br>
+                Attack C: ${charmander.attackC} hit points <br>
+                Attack D: ${charmander.attackD} hit points <br>
+            </h5>
         `
         let p1 = charmander
 
@@ -80,13 +86,15 @@ function pokemonSelect1() {
     }
 
     if(x.value == "squirtle") {
-        document.getElementById("disp").innerHTML = `
-            You selected ${squirtle.name} <br>
-            Health: ${squirtle.health} hit points <br>
-            Attack A: ${squirtle.attackA} hit points <br>
-            Attack B: ${squirtle.attackB} hit points <br>
-            Attack C: ${squirtle.attackC} hit points <br>
-            Attack D: ${squirtle.attackD} hit points <br>
+        document.getElementById("trainer1").innerHTML = `
+            <h5 class="text-success">
+                You selected ${squirtle.name} <br>
+                Health: ${squirtle.health} hit points <br>
+                Attack A: ${squirtle.attackA} hit points <br>
+                Attack B: ${squirtle.attackB} hit points <br>
+                Attack C: ${squirtle.attackC} hit points <br>
+                Attack D: ${squirtle.attackD} hit points <br>
+            </h5>
         `
         let p1 = squirtle
 
@@ -100,13 +108,15 @@ function pokemonSelect2() {
     let i = Math.ceil(Math.random()*4);
 
     if(i == 1) {
-        document.getElementById("error").innerHTML = `
-            Enemy selected ${butterfree.name} <br>
-            Health: ${butterfree.health} hit points <br>
-            Attack A: ${butterfree.attackA} hit points <br>
-            Attack B: ${butterfree.attackB} hit points <br>
-            Attack C: ${butterfree.attackC} hit points <br>
-            Attack D: ${butterfree.attackD} hit points <br>
+        document.getElementById("trainer2").innerHTML = `
+            <h5 class="text-danger">    
+                Enemy selected ${butterfree.name} <br>
+                Health: ${butterfree.health} hit points <br>
+                Attack A: ${butterfree.attackA} hit points <br>
+                Attack B: ${butterfree.attackB} hit points <br>
+                Attack C: ${butterfree.attackC} hit points <br>
+                Attack D: ${butterfree.attackD} hit points <br>
+            </h5>
         `
         let p2 = butterfree
 
@@ -114,13 +124,15 @@ function pokemonSelect2() {
     }
 
     if(i == 2) {
-        document.getElementById("error").innerHTML = `
-            Enemy selected ${pidgeot.name} <br>
-            Health: ${pidgeot.health} hit points <br>
-            Attack A: ${pidgeot.attackA} hit points <br>
-            Attack B: ${pidgeot.attackB} hit points <br>
-            Attack C: ${pidgeot.attackC} hit points <br>
-            Attack D: ${pidgeot.attackD} hit points <br>
+        document.getElementById("trainer2").innerHTML = `
+            <h5 class="text-danger">    
+                Enemy selected ${pidgeot.name} <br>
+                Health: ${pidgeot.health} hit points <br>
+                Attack A: ${pidgeot.attackA} hit points <br>
+                Attack B: ${pidgeot.attackB} hit points <br>
+                Attack C: ${pidgeot.attackC} hit points <br>
+                Attack D: ${pidgeot.attackD} hit points <br>
+            </h5>
         `
         let p2 = pidgeot
 
@@ -128,13 +140,15 @@ function pokemonSelect2() {
     }
 
     if(i == 3) {
-        document.getElementById("error").innerHTML = `
-            Enemy selected ${vulpix.name} <br>
-            Health: ${vulpix.health} hit points <br>
-            Attack A: ${vulpix.attackA} hit points <br>
-            Attack B: ${vulpix.attackB} hit points <br>
-            Attack C: ${vulpix.attackC} hit points <br>
-            Attack D: ${vulpix.attackD} hit points <br>
+        document.getElementById("trainer2").innerHTML = `
+            <h5 class="text-danger">    
+                Enemy selected ${vulpix.name} <br>
+                Health: ${vulpix.health} hit points <br>
+                Attack A: ${vulpix.attackA} hit points <br>
+                Attack B: ${vulpix.attackB} hit points <br>
+                Attack C: ${vulpix.attackC} hit points <br>
+                Attack D: ${vulpix.attackD} hit points <br>
+            </h5>
         `
         let p2 = vulpix
 
@@ -142,13 +156,15 @@ function pokemonSelect2() {
     }
 
     if(i == 4) {
-        document.getElementById("error").innerHTML = `
-            Enemy selected ${onix.name} <br>
-            Health: ${onix.health} hit points <br>
-            Attack A: ${onix.attackA} hit points <br>
-            Attack B: ${onix.attackB} hit points <br>
-            Attack C: ${onix.attackC} hit points <br>
-            Attack D: ${onix.attackD} hit points <br>
+        document.getElementById("trainer2").innerHTML = `
+            <h5 class="text-danger">    
+                Enemy selected ${onix.name} <br>
+                Health: ${onix.health} hit points <br>
+                Attack A: ${onix.attackA} hit points <br>
+                Attack B: ${onix.attackB} hit points <br>
+                Attack C: ${onix.attackC} hit points <br>
+                Attack D: ${onix.attackD} hit points <br>
+            </h5>
         `
         let p2 = onix
 
@@ -176,7 +192,7 @@ function fight() {
 
     let round = 1;
 
-    document.getElementById("dispute").innerHTML += `LETS START THE BATTLE <br><br>`
+    document.getElementById("disputetitle").innerHTML = `LETS START THE BATTLE!!! <br><br>`
 
     while (health1 > 0 && health2 > 0) {
 
@@ -240,15 +256,15 @@ function fight() {
     };
 
     if (health1 > 0) {
-        document.getElementById("dispute").innerHTML +=(`<br> ${p2.name} GOT FAINTED. ${p1.name} WINS!`);
+        document.getElementById("disputeend").innerHTML = `<h3 class="text-success"><br> ${p2.name} GOT FAINTED. ${p1.name} WINS!</h3>`;
     };
 
     if (health2 > 0) {
-        document.getElementById("dispute").innerHTML +=(`<br> ${p1.name} GOT FAINTED. ${p2.name} WINS!`);
+        document.getElementById("disputeend").innerHTML = `<h3 class="text-danger"><br> ${p1.name} GOT FAINTED. ${p2.name} WINS!</h3>`;
     };
 
     if (health1 <= 0 && health2 <= 0) {
-        document.getElementById("dispute").innerHTML +=("<br> BOTH GOT FAINTED");
+        document.getElementById("disputeend").innerHTML = "<br> BOTH GOT FAINTED";
     };
 };
 
